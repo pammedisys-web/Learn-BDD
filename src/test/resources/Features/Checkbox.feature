@@ -6,7 +6,7 @@ Feature: Checkbox Automation
   Background:
     Given I am on Dashboard page "https://testing.qaautomationlabs.com/form.php"
 
-  @SmokeTest
+  @SmokeTest1
   Scenario: user click on Single Checkbox
     When I hover mouse to the Checkbox page and click on it
     Then it get checked successfully on single click
